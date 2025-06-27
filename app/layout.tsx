@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     title: 'Emerce - Smart Warehouse Rental Solutions',
     description:
       'Find the perfect warehouse space for your business. Modern facilities, strategic locations, competitive rates.',
-    url: 'https://emerce.com',
+    url: 'https://emerce.in',
     siteName: 'Emerce',
     images: [
       {
@@ -58,7 +58,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://emerce.com" />
+        <link rel="canonical" href="https://emerce.in" />
         <link rel="icon" href="/favicon.png" type="image/png" sizes="5000" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#16a34a" />
