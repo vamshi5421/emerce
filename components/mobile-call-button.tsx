@@ -32,7 +32,7 @@ export function MobileCallButton({
 
   if (variant === "floating") {
     return (
-      <div className={`fixed bottom-20 left-4 right-4 z-50 ${className}`}>
+      <div className={`fixed bottom-14 left-4 right-4 z-50 ${className}`}>
         <Button
           onClick={handleCall}
           className="w-full bg-green-600 hover:bg-green-700 shadow-lg text-white font-semibold py-4 text-base"
