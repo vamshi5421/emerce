@@ -177,6 +177,8 @@ export function WarehouseDetailPage({ warehouse }: WarehouseDetailPageProps) {
     mall: '🏬',
     hospital: '🏥',
     school: '🏫',
+    busstation: '🚌',
+    tollgate: '🚧',
   };
 
   const [modalOpen, setModalOpen] = useState(false);

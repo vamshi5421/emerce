@@ -37,7 +37,9 @@ export interface Warehouse {
       | 'port'
       | 'mall'
       | 'hospital'
-      | 'school';
+      | 'school'
+      | 'busstation'
+      | 'tollgate';
   }[];
   specifications: {
     totalArea: string;

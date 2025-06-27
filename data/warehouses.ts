@@ -67,7 +67,7 @@ export const warehouses: Warehouse[] = [
           'Power Backup',
           'Water Supply',
           'Waste Management',
-          'Parking for 50+ Vehicles',
+          'Parking for 5+ Vehicles',
         ],
       },
       {
@@ -75,7 +75,6 @@ export const warehouses: Warehouse[] = [
         items: [
           'Office Space Included',
           'Conference Room',
-          'Cafeteria',
           'Maintenance Support',
           '24/7 Access',
         ],
@@ -87,11 +86,10 @@ export const warehouses: Warehouse[] = [
         distance: '7.1 km',
         type: 'airport',
       },
-      { name: 'Mumbai-Pune Expressway', distance: '2 km', type: 'highway' },
-      { name: 'Rajiv Gandhi IT Park', distance: '8 km', type: 'mall' },
-      { name: 'Pune Railway Station', distance: '12 km', type: 'railway' },
-      { name: 'Phoenix MarketCity', distance: '5 km', type: 'mall' },
-      { name: 'Ruby Hall Clinic', distance: '7 km', type: 'hospital' },
+      { name: 'ORR Service Road', distance: '200 m', type: 'highway' },
+      { name: 'Bangalore Highway', distance: '2.7 km', type: 'highway' },
+      { name: 'ORR Exit 15', distance: '3.6 km', type: 'tollgate' },
+      { name: 'Shamshabad Bus Stand', distance: '5.2 km', type: 'busstation' },
     ],
     specifications: {
       totalArea: '8,400 sqft',
