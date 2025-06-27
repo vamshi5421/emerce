@@ -524,17 +524,17 @@ export function WarehouseDetailPage({ warehouse }: WarehouseDetailPageProps) {
                     </div>
                     <div className="flex-1">
                       <p className="font-medium">{warehouse.contact.manager}</p>
-                      <div className="flex items-center space-x-4 mt-1">
+                      <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-4 mt-1 space-y-2 sm:space-y-0">
                         <a
                           href={`tel:${warehouse.contact.phone}`}
-                          className="flex items-center space-x-1 text-sm text-green-600 hover:underline"
+                          className="flex items-center space-x-1 text-sm text-green-600 hover:underline break-all"
                         >
                           <Phone className="h-3 w-3" />
                           <span>{warehouse.contact.phone}</span>
                         </a>
                         <a
                           href={`mailto:${warehouse.contact.email}`}
-                          className="flex items-center space-x-1 text-sm text-green-600 hover:underline"
+                          className="flex items-center space-x-1 text-sm text-green-600 hover:underline break-all"
                         >
                           <Mail className="h-3 w-3" />
                           <span>{warehouse.contact.email}</span>
