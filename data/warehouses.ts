@@ -334,7 +334,7 @@ export const warehouses: Warehouse[] = [
     },
     availability: {
       immediate: false,
-      availableFrom: 'Q3 2024',
+      availableFrom: 'Q3 2025',
     },
     contact: {
       manager: 'Arjun Reddy',
