@@ -380,10 +380,13 @@ export function WarehouseDetailPage({ warehouse }: WarehouseDetailPageProps) {
                         <div>
                           <p className="font-medium">Monthly Rent</p>
                           <p className="text-2xl font-bold text-green-600">
-                            {warehouse.price.monthly}
+                            ~ {warehouse.price.monthly}
                           </p>
                           <p className="text-xs text-muted-foreground">
-                            {warehouse.price.perSqft} per sqft
+                            ~ {warehouse.price.perSqft} per sqft
+                          </p>
+                          <p className="text-m text-green-700 mt-1 font-bold">
+                            Price negotiable
                           </p>
                         </div>
                       </div>

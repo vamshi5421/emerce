@@ -97,7 +97,7 @@ export const warehouses: Warehouse[] = [
       officeArea: '2,000 sqft',
       loadingDocks: 4,
       parkingSpaces: 6,
-      ceilingHeight: '32 feet',
+      ceilingHeight: '25 feet',
       floorLoad: '500 kg/sqm',
     },
     availability: {
