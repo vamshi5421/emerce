@@ -80,7 +80,7 @@ export default function VacancyPage() {
             <MapPin className="h-12 w-12 text-gray-400 mx-auto mb-4" />
             <p className="text-gray-600">Google Maps Integration</p>
             <p className="text-sm text-gray-500">
-              Warehouse Location: Pune, Maharashtra
+              Warehouse Location: Shamshabad, Telangana
             </p>
           </div>
         </div>

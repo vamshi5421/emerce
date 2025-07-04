@@ -21,9 +21,9 @@ interface VacancyContactFormProps {
 }
 
 export function VacancyContactForm({
-  warehouseTitle = 'Warehouse Property',
-  managerPhone = '+91 99893 08335',
-  managerName = 'Property Manager',
+  warehouseTitle,
+  managerPhone,
+  managerName,
 }: VacancyContactFormProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{
