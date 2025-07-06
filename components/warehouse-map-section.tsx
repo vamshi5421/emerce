@@ -75,9 +75,9 @@ export function WarehouseMapSection({
             </span>
             <span>{warehouse.size}</span>
           </span>
-          <span className="text-2xl font-bold text-green-600">
+          {/* <span className="text-2xl font-bold text-green-600">
             {warehouse.price.monthly}
-          </span>
+          </span> */}
         </div>
       </div>
     </section>
