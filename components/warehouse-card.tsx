@@ -230,14 +230,14 @@ export function WarehouseCard({
           )}
 
           <div className="flex items-center justify-between pt-2">
-            <div className="space-y-1">
+            {/* <div className="space-y-1">
               <span className="text-2xl font-bold text-green-600">
                 {warehouse.price.monthly}
               </span>
               <p className="text-xs text-muted-foreground">
                 {warehouse.price.perSqft}/sqft
               </p>
-            </div>
+            </div> */}
             <Button className="group">
               View Details
               <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />

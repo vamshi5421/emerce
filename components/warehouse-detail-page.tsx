@@ -378,15 +378,15 @@ export function WarehouseDetailPage({ warehouse }: WarehouseDetailPageProps) {
                       <div className="flex items-center space-x-3">
                         <Building2 className="h-5 w-5 text-green-600" />
                         <div>
-                          {/* <p className="font-medium">Monthly Rent</p>
-                          <p className="text-2xl font-bold text-green-600">
+                          <p className="font-medium">Monthly Rent</p>
+                          {/* <p className="text-2xl font-bold text-green-600">
                             ~ {warehouse.price.monthly}
                           </p> */}
                           {/* <p className="text-xs text-muted-foreground">
                             ~ {warehouse.price.perSqft} per sqft
                           </p> */}
                           <h2 className=" text-green-700 mt-1 font-bold">
-                            Price negotiable
+                            Negotiable
                           </h2>
                         </div>
                       </div>
